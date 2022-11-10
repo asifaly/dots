@@ -15,7 +15,7 @@ alias vrc="nvim ~/.vimrc"
 alias c="clear"
 alias kbssh="ssh -t root@68.183.80.200"
 alias szrc="source ~/.zshrc"
-alias l="exa -laF --git --git-ignore --no-user --group-directories-first"
+alias l="exa -laF --git --git-ignore --no-user --group-directories-first --icons"
 alias lt="exa -lDT --git-ignore --no-user"
 alias lg="exa -laFG --git-ignore --no-user --group-directories-first"
 alias ld="exa -lD --git-ignore --no-user"
@@ -36,6 +36,14 @@ alias gst="git stash"
 alias gstd="git stash drop"
 alias gstp="git stash pop"
 alias gcm="git commit -m"
+
+# TMUX aliases - Delete it if you don't use tmux.
+alias mxn="tmux -2 new -s"
+alias mxk="tmux kill-session -t"
+alias mxl="tmux ls"
+alias mxa="tmux -2 a -t"
+alias mxconf="v ~/.tmux.conf"
+alias mxsrc="tmux source ~/.tmux.conf"
 
 export EDITOR='vim'
 
