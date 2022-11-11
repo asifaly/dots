@@ -8,10 +8,10 @@ eval "$(zoxide init zsh)"
 # General Aliases
 alias ..="cd .."
 alias ~=" cd ~"
-alias v="nvim"
+alias v="vim"
 alias ~="cd ~"
-alias zrc="nvim ~/.zshrc"
-alias vrc="nvim ~/.vimrc"
+alias zrc="vim ~/.zshrc"
+alias vrc="vim ~/.vimrc"
 alias c="clear"
 alias kbssh="ssh -t root@68.183.80.200"
 alias szrc="source ~/.zshrc"
@@ -37,18 +37,9 @@ alias gstd="git stash drop"
 alias gstp="git stash pop"
 alias gcm="git commit -m"
 
-# TMUX aliases - Delete it if you don't use tmux.
-alias mxn="tmux -2 new -s"
-alias mxk="tmux kill-session -t"
-alias mxl="tmux ls"
-alias mxa="tmux -2 a -t"
-alias mxconf="v ~/.tmux.conf"
-alias mxsrc="tmux source ~/.tmux.conf"
-
 export EDITOR='vim'
 
 # Load Zsh Plugins
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
-. /opt/homebrew/opt/asdf/libexec/asdf.sh

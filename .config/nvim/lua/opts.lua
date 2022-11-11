@@ -23,6 +23,8 @@ o.smarttab = true
 o.showtabline = 2
 o.tabstop = 2
 o.expandtab = true
+o.shiftwidth = 2
+o.softtabstop = 2
 
 --OTHER VISUAL STUFF
 o.splitright = true
