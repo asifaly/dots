@@ -1,5 +1,8 @@
 alias config='/usr/bin/git --git-dir=/Users/asif/dev/dotfiles --work-tree=/Users/asif'
 
+export PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true
+export PUPPETEER_EXECUTABLE_PATH="/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
+
 # If you come from bash you might have to change your $PATH.
 #Loads the Starship Prompt
 eval "$(starship init zsh)"
@@ -37,9 +40,17 @@ alias gstd="git stash drop"
 alias gstp="git stash pop"
 alias gcm="git commit -m"
 
+#elxir
+alias elcon="docker run -it --rm elixir"
+alias elbash="docker run -it --rm elixir bash"
+
 export EDITOR='vim'
 
 # Load Zsh Plugins
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
+
+  export NVM_DIR="$HOME/.nvm"
+  [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
+  [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion

@@ -1,5 +1,4 @@
 {
-	"analytics-uuid": "8fa83f51-686d-4523-b51b-42ec7a73d886",
 	"motd": {
 		"cloudBuildErrorAfter": 1594252800000,
 		"cloudBuildWarnAfter": 1590019200000,
@@ -8,27 +7,35 @@
 		"node8DeploysDisabledAfter": 1613390400000,
 		"node8RuntimeDisabledAfter": 1615809600000,
 		"node8WarnAfter": 1600128000000,
-		"fetched": 1668077067313
+		"fetched": 1668769395423
 	},
+	"additionalAccounts": [],
+	"activeAccounts": {},
+	"analytics-uuid": "8eb7ccd9-c90f-42fb-9d05-70747088b237",
 	"usage": true,
 	"user": {
 		"iss": "accounts.google.com",
 		"azp": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
 		"aud": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
-		"sub": "113950486913779080512",
-		"email": "asifaly@gmail.com",
+		"sub": "101435527232016531335",
+		"hd": "venzoconsulting.com",
+		"email": "asif@venzoconsulting.com",
 		"email_verified": true,
-		"at_hash": "3wpbguwPOpvFiKpOSR8a5Q",
-		"iat": 1668077077,
-		"exp": 1668080677
+		"at_hash": "-Zp8zrYNn7SaiWMmNKJpEQ",
+		"iat": 1668785391,
+		"exp": 1668788991
 	},
 	"tokens": {
-		"expires_at": 1668080676809,
-		"access_token": "ya29.a0AeTM1ie2jEXzLG3MkJ4Duf3tSsym1i9AJJhpPqbZ4jCDch5r6_e16iDMhHX2-VOZQyGjLxK2oUoBIkZ7_Kc-sk5PFHPVcB_QGvzsrxbWCaxJbo8oqxyZMDhJh22co1bRAthLpUz8DrmYX_J9uFaTAzkuqkCYMB70fXGMaCgYKAeQSARASFQHWtWOmughOeZjiAWz3oKpyCTG_rg0171",
+		"expires_at": 1668792766045,
+		"refresh_token": "1//0gtyBIS5QQZoXCgYIARAAGBASNwF-L9Ir6oKNhEXuDfTZF8aWBDQX_XgH0IxUJCskLcJcUPaIzrvjzzod7FYuLM9L2LzxKPqSSlQ",
+		"scopes": [],
+		"access_token": "ya29.a0AeTM1if6WkSRuFvuFgTlxq4cYDX-QKuGhyyTUUx45DGIKRY7EtcyVG0fWX1IJbzzY-3ZSEbYI7u6FDp7f4XuYDyZwf1gxrwiYK00XZjCba3Fuq9qMZl_NiD0ZAGN0nSBGItkQ5YvBAo1zEoYcW5GQu0AbSQEX7nNzJXfaCgYKAbkSARISFQHWtWOmO82rixsMSqo8N_ZA6HI5Pg0171",
 		"expires_in": 3599,
-		"refresh_token": "1//0goeiikN58uSeCgYIARAAGBASNwF-L9IrzsjAYORO3rsoZoaptyjVUnikh_6nTZQS5wT4Zxvn6JagkUpRAfwP8xS95pwrwKlYyWc",
-		"scope": "https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/firebase openid",
+		"scope": "openid https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/userinfo.email",
 		"token_type": "Bearer",
-		"id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImY0NTEzNDVmYWQwODEwMWJmYjM0NWNmNjQyYTJkYTkyNjdiOWViZWIiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXpwIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTEzOTUwNDg2OTEzNzc5MDgwNTEyIiwiZW1haWwiOiJhc2lmYWx5QGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJhdF9oYXNoIjoiM3dwYmd1d1BPcHZGaUtwT1NSOGE1USIsImlhdCI6MTY2ODA3NzA3NywiZXhwIjoxNjY4MDgwNjc3fQ.gnaWuDvkFK9SsUyjrhJd49dMWfECQ2D1EgQxqbGVjDNNpYmrzxuNzcK2Aa3b97gO5c69R3LZnaFtATmIi7e7LPiJgIS62AfhV9ZM7JJ4iUUBZsDo0VjYyIVNJHJhvKalf-waNpv9iYv6DkDGGl95vuZ8blm8sbH3SSu7v3ayvmenW7Bz7atVKcqzBEJNGZie9DNBbJIuQM_hHFHum7KM6o9TjO2brJ5wHgFAVkwBy_DbZ0UimWFYJX4pcBxh_nH20a6xMgj-OSnR7j9MJMVGusokSxw6VqeSgYo5cOY0Wj7ptIKglPmrhnVBZ7wSumBjJSJzcu8PcLvl1GSJuEXIFw"
+		"id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjcxM2ZkNjhjOTY2ZTI5MzgwOTgxZWRjMDE2NGEyZjZjMDZjNTcwMmEiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXpwIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTAxNDM1NTI3MjMyMDE2NTMxMzM1IiwiaGQiOiJ2ZW56b2NvbnN1bHRpbmcuY29tIiwiZW1haWwiOiJhc2lmQHZlbnpvY29uc3VsdGluZy5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiYXRfaGFzaCI6IkE5TWlPaVNVVHFaM2E2OEktd3lVY3ciLCJpYXQiOjE2Njg3ODkxNjcsImV4cCI6MTY2ODc5Mjc2N30.hr820_XDErnv2Q_1TjYlhGwO5KqFYe_FbOZg0s8vR7cgsNLwEfSq46u1cM_GmJxuV0aSpY7aqCCgboQGIrfhspLxurhufmtlfkJkIDwi_h5yIDNCjPBiWGO7-jb7kkxUgeuiUFETPOxYsZr6ZlcaMOLgrZPU5gxRVQd44OhxTNZgorQAHCEp5Yp3vHhwPiYxRYdARx7PGOZPSg5KfLS-xhjJC3EXtaTttxZnBc9HmZIiP-MhdK5YFzeuLiLLlbH_RsM4fSXL3fGmw3XV8I8A0b8VwUs9gtMgxn3MENzzFk-0jxqeewfbzMZmrPqhyUanujrYYEOo5hcBfSQ5DTmDLQ"
+	},
+	"activeProjects": {
+		"/Users/asif/dev/js/qizto": "vquiz-dev"
 	}
 }
